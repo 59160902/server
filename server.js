@@ -15,7 +15,11 @@ app.get('/contacts',(req,res) => {
 
 
 /// TODO: Develop POST /contacts
-
+app.post('/contacts',(req,res) => {
+    let newContacts = req.body
+    contacts.push(newContacts)
+    res.json(newContacts)
+})
 
 
 app.listen(3000, () => {

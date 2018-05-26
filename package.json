@@ -1,7 +1,7 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. Run command `npm install` to setup project\r 2. Use command `npm start` to start server",
   "main": "index.js",
   "scripts": {
     "start": "node server.js"
@@ -14,5 +14,13 @@
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "http-server": "^0.11.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/59160902/server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/59160902/server/issues"
+  },
+  "homepage": "https://github.com/59160902/server#readme"
 }
